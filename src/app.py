@@ -7,7 +7,7 @@ st.title("EMPLEATRONIX - ALEJANDRO FR")
 st.write("Todos los datos sobre los empleados en una aplicación:")
 
 # Carga de datos
-path = "/data/employees.csv"
+path = "./data/employees.csv"
 
 df = pd.read_csv(path)
 
